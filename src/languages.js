@@ -67,7 +67,6 @@
 
     function get_links() {
         var links = document.querySelectorAll(link_sel)
-        console.log(links)
         for (var i = 0; i < links.length; ++i) {
             links[i]._l = (links[i].dataset.language || links[i].innerText).toLowerCase()
             links[i].addEventListener('click', swicht_language)
