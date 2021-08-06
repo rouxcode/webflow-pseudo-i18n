@@ -132,9 +132,13 @@
         }
         // try get languages from language link data attr
         if (links.length) {
+            var lang
             var langs = []
             links.forEach(el => {
-                langs.push((el.dataset.language || el.innerText).toLowerCase())
+                lang = (el.dataset.language || el.innerText).toLowerCase()
+                if (langs.indexOf(lang) == -1) {
+                    langs.push(lang)
+                }
             })
             if (langs.length > 0) {
                 return langs
