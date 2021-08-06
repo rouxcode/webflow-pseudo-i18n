@@ -10,5 +10,5 @@ a very basic language switch js for basic webflow pages
         element_selectors: ['.aditional-element-selector'] // optional
     };
 </script>
-<script src="https://cdn.jsdelivr.net/gh/rouxcode/webflow-pseudo-i18n/dist/roux-i18n.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/rouxcode/webflow-pseudo-i18n@1/dist/roux-i18n.js"></script>
 ```
